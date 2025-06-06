@@ -20,4 +20,7 @@ RUN cd /usr/app && npm install
 # Build react
 RUN cp react/src/config.dev.js react/src/config.js
 
-CMD [ "/usr/app/start.sh" ]
+# Make start script executable
+RUN chmod +x /usr/app/start.sh
+
+CMD [ "bash","/usr/app/start.sh" ]

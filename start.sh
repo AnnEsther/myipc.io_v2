@@ -1,6 +1,26 @@
 #!/bin/bash
 
 function prd() { 
+
+    set -e
+
+echo "=> Starting PostgreSQL service"
+/etc/init.d/postgresql start
+
+echo "=> Setting password for postgres user"
+su - postgres -c "psql -c \"ALTER USER postgres WITH PASSWORD 'postgres';\""
+
+echo "=> Creating 'myipc' database if not exists"
+su - postgres -c "psql -tc \"SELECT 1 FROM pg_database WHERE datname = 'myipc'\"" | grep -q 1 || \
+  su - postgres -c "createdb myipc"
+
+echo "✅ PostgreSQL is ready with:"
+echo "   Host: 127.0.0.1"
+echo "   Port: 5432"
+echo "   User: postgres"
+echo "   Password: postgres"
+echo "   Database: myipc"
+
     echo "=> Starting Node App"
     node index
  }

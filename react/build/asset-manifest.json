@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cba0ece.css",
+    "main.js": "/static/js/main.a443f38d.js",
+    "static/js/451.4b737bb4.chunk.js": "/static/js/451.4b737bb4.chunk.js",
+    "static/media/Dungeon2.wav": "/static/media/Dungeon2.59db23d62ca7cb21a64b.wav",
+    "static/media/CreepyDungeon.wav": "/static/media/CreepyDungeon.a05bace850e80ce44402.wav",
+    "static/media/logo_4X19.png": "/static/media/logo_4X19.5724b142cb2c717b55ab.png",
+    "static/media/nextLvl.wav": "/static/media/nextLvl.b1921f571e5976b70850.wav",
+    "static/media/hit.wav": "/static/media/hit.95f9fd5351f4ccd3b2f7.wav",
+    "static/media/Poppins-Italic.ttf": "/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
+    "static/media/Poppins-SemiBoldItalic.ttf": "/static/media/Poppins-SemiBoldItalic.3524ffc3226f4578e5c5.ttf",
+    "static/media/Poppins-BoldItalic.ttf": "/static/media/Poppins-BoldItalic.cfb635a5111b545f5598.ttf",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/PressStart2P-Regular.ttf": "/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
+    "static/media/logo.png": "/static/media/logo.77cadb5a1373e618a807.png",
+    "static/media/OldSansBlack.ttf": "/static/media/OldSansBlack.33216c24cb5c713439e1.ttf",
+    "static/media/dungeonTiles.png": "/static/media/dungeonTiles.a9edafbd25399f4ae985.png",
+    "static/media/btnClick.wav": "/static/media/btnClick.9c3d0d15de25e6b4cd70.wav",
+    "static/media/hole.png": "/static/media/hole.2015d2be6ab3914183d1.png",
+    "static/media/Apple ][.ttf": "/static/media/Apple ][.cf6f461e1b2a6784a721.ttf",
+    "static/media/alagard.ttf": "/static/media/alagard.685ec71b2fb55a5702b0.ttf",
+    "index.html": "/index.html",
+    "main.5cba0ece.css.map": "/static/css/main.5cba0ece.css.map",
+    "main.a443f38d.js.map": "/static/js/main.a443f38d.js.map",
+    "451.4b737bb4.chunk.js.map": "/static/js/451.4b737bb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cba0ece.css",
+    "static/js/main.a443f38d.js"
+  ]
+}

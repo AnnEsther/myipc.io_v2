@@ -193,7 +193,7 @@ async function callWalletAddress (req, res) {
 };
 
 async function index_layout() {
-  const data = await fs.readFile(config.PRODUCTION_DIR + "index.html"); 
+  const data = await fs.readFile(config.PRODUCTION_DIR + "main.html"); 
   return data.toString('utf8');
 }
 

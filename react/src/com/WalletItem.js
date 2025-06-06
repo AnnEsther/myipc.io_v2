@@ -69,7 +69,7 @@ export default function WalletItem(props) {
         <Box sx={style.media_wrapper}>
           <CardMedia
             component="img"
-            image={config.public_url + "sprites/" + ipc.token_id  + ".gif"}
+            image={config.ASSET_URL + "sprites/" + ipc.token_id  + ".gif"}
             sx={style.media} />
         </Box>
         <CardContent>

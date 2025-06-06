@@ -219,7 +219,7 @@ async function callDefault(req, res) {
     output = output.replace(/%PAGE_CARD%/g, "https://raw.githubusercontent.com/PlaychemyInc/IPC_Assets/refs/heads/main/cards/" + token_id[0] + ".jpg");
   else
     var random = Math.floor(1 + Math.random() * 11999);
-    output = output.replace(/%PAGE_CARD%/g, "https://raw.githubusercontent.com/PlaychemyInc/IPC_Assets/refs/heads/main/"+random+".jpg");
+    output = output.replace(/%PAGE_CARD%/g, "https://raw.githubusercontent.com/PlaychemyInc/IPC_Assets/refs/heads/main/cards/"+random+".jpg");
 
     res.send(output);
 }

@@ -36,9 +36,4 @@ RUN cp react/src/config.dev.js react/src/config.js
 # Make start script executable
 RUN chmod +x /usr/app/start.sh
 
-# Start both PostgreSQL and your app
-CMD service postgresql start && \
-    su - postgres -c "initdb -D /tmp/pgdata" && \
-    su - postgres -c "pg_ctl -D /tmp/pgdata -l /tmp/logfile start" && \
-    sleep 3 && \
-    bash /usr/app/start.sh
+CMD [ "bash","/usr/app/start.sh" ]

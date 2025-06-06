@@ -62,7 +62,7 @@ function IPCSprite(props) {
   const Image = styled('img')(style.image);
   const ImageType = styled('img')(style.image_type);
 
-  const image_filename = config.public_url + "sprites/" + props.filename;
+  const image_filename = config.ASSET_URL + "sprites/" + props.filename;
   const image_type_filename = config.public_url + "assets/8-bit.png";
 
   return (

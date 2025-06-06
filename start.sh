@@ -1,6 +1,12 @@
 #!/bin/bash
 
-function prd() { node index ; }
+function prd() { 
+    echo "=> Running IPC Install"
+    node ipc-install
+
+    echo "=> Starting Express App"
+    node index
+ }
 
 function debug() { sleep 999999999 ; }
 

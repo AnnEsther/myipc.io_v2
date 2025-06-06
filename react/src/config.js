@@ -1,18 +1,13 @@
-const { URL } = require("url");
-
-const dbUrl = process.env.DATABASE_URL;
-const parsed = new URL(dbUrl);
-
 const SECONDS_DAY = 86400;
 
 const config = {
 
     VERSION: "1.201",
-    IPCDB_USERNAME: parsed.username,
-    IPCDB_PASSWORD: parsed.password,
-    IPCDB_DATABASE: parsed.pathname.slice(1),
-    IPCDB_HOST: parsed.hostname,
-    IPCDB_PORT: parseInt(parsed.port, 10),
+    IPCDB_USERNAME: "postgres",
+    IPCDB_PASSWORD: "postgres",
+    IPCDB_DATABASE: "myipc",
+    IPCDB_HOST: "127.0.0.1",
+    IPCDB_PORT: 5432,
 
     IPCDB_WEB3_PROVIDER: "https://eth-mainnet.g.alchemy.com/v2/mCcAT4K-9GsRqYKRw8aq9d6oZMkS8x52",
     IPCDB_WEB3_CONTRACTADDR: "0x011C77fa577c500dEeDaD364b8af9e8540b808C0",

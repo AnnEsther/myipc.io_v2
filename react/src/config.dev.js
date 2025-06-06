@@ -20,7 +20,7 @@ const config = {
     DEVELOPMENT_MODE: 0,
 
     PRODUCTION_DIR: "react/build/", 
-    PUBLIC_ROOT: "/",
+    PUBLIC_ROOT: "https://myipc-io-v2.fly.dev/",
     ASSET_URL: "https://raw.githubusercontent.com/PlaychemyInc/IPC_Assets/refs/heads/main/",
 
     backdrop: {zIndex: 9999},

@@ -3,9 +3,9 @@ const SECONDS_DAY = 86400;
 const config = {
 
     VERSION: "1.201",
-    IPCDB_USERNAME: "username",
-    IPCDB_PASSWORD: "password",
-    IPCDB_DATABASE: "database",
+    IPCDB_USERNAME: "postgres",
+    IPCDB_PASSWORD: "postgres",
+    IPCDB_DATABASE: "myipc",
     IPCDB_HOST: "127.0.0.1",
     IPCDB_PORT: 5432,
 

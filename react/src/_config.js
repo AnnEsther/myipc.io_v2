@@ -23,7 +23,7 @@ const config = {
     PUBLIC_ROOT: "/",
 
     backdrop: {zIndex: 9999},
-    walletConnect: {zIndex: 9998}
+    walletConnect: {zIndex: 9998},
 
     // The following will be deprecated soon.
     public_url: "",

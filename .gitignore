@@ -1,0 +1,15 @@
+**/config.js
+**/node_modules
+**/build
+
+react/public/sprites
+react/public/cards
+data
+
+# react/src/config.dev.js
+react/src/config.prd.js
+VERSION
+
+# OS generated files #
+######################
+*.DS_Store

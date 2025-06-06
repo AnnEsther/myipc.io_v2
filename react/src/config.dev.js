@@ -6,7 +6,7 @@ const config = {
     IPCDB_USERNAME: "postgres",
     IPCDB_PASSWORD: "postgres",
     IPCDB_DATABASE: "myipc",
-    IPCDB_HOST: "postgres",
+    IPCDB_HOST: "127.0.0.1",
     IPCDB_PORT: 5432,
 
     IPCDB_WEB3_PROVIDER: "https://eth-mainnet.g.alchemy.com/v2/mCcAT4K-9GsRqYKRw8aq9d6oZMkS8x52",

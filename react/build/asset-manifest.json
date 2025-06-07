@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5cba0ece.css",
-    "main.js": "/static/js/main.a443f38d.js",
+    "main.js": "/static/js/main.4df048cd.js",
     "static/js/451.4b737bb4.chunk.js": "/static/js/451.4b737bb4.chunk.js",
     "static/media/Dungeon2.wav": "/static/media/Dungeon2.59db23d62ca7cb21a64b.wav",
     "static/media/CreepyDungeon.wav": "/static/media/CreepyDungeon.a05bace850e80ce44402.wav",
@@ -24,11 +24,11 @@
     "static/media/alagard.ttf": "/static/media/alagard.685ec71b2fb55a5702b0.ttf",
     "index.html": "/index.html",
     "main.5cba0ece.css.map": "/static/css/main.5cba0ece.css.map",
-    "main.a443f38d.js.map": "/static/js/main.a443f38d.js.map",
+    "main.4df048cd.js.map": "/static/js/main.4df048cd.js.map",
     "451.4b737bb4.chunk.js.map": "/static/js/451.4b737bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cba0ece.css",
-    "static/js/main.a443f38d.js"
+    "static/js/main.4df048cd.js"
   ]
 }
